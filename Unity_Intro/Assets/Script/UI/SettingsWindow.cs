@@ -8,15 +8,15 @@ public class SettingsWindow : MonoBehaviour
 
     public void Start()
     {
-        transform.localScale = Vector3.zero;
+        transform.localScale = Vector2.zero;
     }
     public void Open()
     {
-        transform.LeanScale(Vector3.one, 0.8f);
+        transform.LeanScale(Vector2.one, 0.8f);
     }
 
     public void Close()
     {
-        transform.LeanScale(Vector3.zero, 1f).setEaseInBack();
+        transform.LeanScale(Vector2.zero, 1f).setEaseInBack();
     }
 }
