@@ -93,7 +93,7 @@
      <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplinePerformance.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier2d.cs" />
      <Compile Include="Assets\Script\UI\BallAnim.cs" />
-     <Compile Include="Assets\Script\UI\CatJump.cs" />
+     <Compile Include="Assets\Script\UI\AliJump.cs" />
      <Compile Include="Assets\LeanTween\Framework\LTDescrOptional.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEasingTypes.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralSequencer.cs" />
