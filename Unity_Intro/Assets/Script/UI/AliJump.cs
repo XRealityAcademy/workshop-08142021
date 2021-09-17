@@ -4,8 +4,16 @@ using UnityEngine;
 
 public class AliJump : MonoBehaviour
 {
-    public void StartJumping()
+   
+    public void Jump()
     {
-        transform.LeanMoveLocal(new Vector3(-250, 570,-47), 1f).setEaseOutQuart().setLoopPingPong();
+        LeanTween.moveY( gameObject,570, 1f).setEaseOutQuart();
+        
+    }
+    
+
+    public void Back()
+    {
+        LeanTween.color(gameObject, Color.magenta, 2f);
     }
 }
