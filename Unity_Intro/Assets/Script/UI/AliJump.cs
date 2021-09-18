@@ -7,11 +7,17 @@ public class AliJump : MonoBehaviour
    
     public void Jump()
     {
-        LeanTween.moveY( gameObject,570, 1f).setEaseOutQuart();
+        LeanTween.moveY( gameObject,570, 1f).setEaseOutQuart().setLoopPingPong();
         
     }
     
 
+    public void StopJump()
+    {
+        LeanTween.moveY( gameObject,185, 1f).setEaseOutQuart();
+        
+    }
+    
     public void Back()
     {
         LeanTween.color(gameObject, Color.magenta, 2f);
